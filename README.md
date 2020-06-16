@@ -22,6 +22,6 @@
 [![refresh](http://img.youtube.com/vi/C81Q_qxxnZQ/0.jpg)](http://www.youtube.com/watch?v=C81Q_qxxnZQ "PhoneEnd")
 
 ## Architecture of System
-![Alt text](projectArchitecture.png)
+![Alt text](projectArchitecture.PNG)
 
 Deverlopers: Hong-Ji Lu, 莊嘉穎, 陳知昊
