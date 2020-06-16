@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Magic Website
+        </title>
+        <script src="dynamicWebsite.js"></script>
+        <style>
+            .circled {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 100px;
+                height: 100px;
+            }
+            button {
+                position: absolute;
+                left: 50%;
+            }
+
+            .leftTop {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+
+            }
+
+            .leftBottom {
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+            }
+
+            .rightTop {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+
+            .rightBottom {
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+            }
+        </style>
+    </head>
+    <body id="wholePage">
+        <button onclick="login()">Connect</button>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+        <script src="dynamicWebsite.js"></script>
+        <img class="leftTop" src="redCircle2.png" style="height: 90px; width: 90px;">
+        <img class="leftBottom" src="redCircle2.png" style="height: 90px; width: 90px;">
+        <img class="rightTop" src="redCircle2.png" style="height: 90px; width: 90px;">
+        <img class="rightBottom" src="redCircle2.png" style="height: 90px; width: 90px;">
+    </body>
+</html>
